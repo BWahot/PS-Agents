@@ -2,12 +2,16 @@
 PEAS stands for Performance measure, Environment, Actuators and Sensors. It describes what an intelligent agent should achieve, where it operates, how it acts and how it gathers information.
 
   a.)Performance measure: Deliver cargo safely to its destination, minimize total travel distance and fuel consumption, obey     traffic rules, avoid accidents, minimize delays and protect the cargo.
+  
   b.)Environment: Kenya's highway network, including roads, towns, cities, junctions, other vehicles, pedestrians, weather       conditions, road signs, traffic lights and obstacles.
+  
   c.)Actuators:	Steering system, accelerator, brakes, gear controls, indicators, headlights, horn and communication systems.
+  
   d.)Sensors:	GPS, cameras, radar, LiDAR, speedometer, proximity sensors, fuel-level sensors, engine sensors and digital maps
 
 **AGENT ENVIRONMENTS**
-  |Enivronment Dimension|          |Classification|          |explanation|
+  |EniIronment Dimension|          |Classification|          |explanation|
+  
    Observability                   Partially observable      The trailer cannot directly observe every aspect of the road.                                                                  Other vehicles may obstruct its view, and some hazards may be                                                                  outside sensor range.
 
   Determinism or Stochastic         Stochastic               The results of actions are not always predictable because of                                                                  traffic, weather, road conditions and the behavior of other                                                                   road users.
