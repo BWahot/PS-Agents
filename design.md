@@ -26,7 +26,8 @@ PEAS stands for Performance measure, Environment, Actuators and Sensors. It desc
 
 **Directed Graph**
 
-<img width="338" height="430" alt="Screenshot 2026-10-16 205059" src="https://github.com/user-attachments/assets/a4e81f2f-ff41-4014-b4eb-a1274f81d841" />
+<img width="326" height="479" alt="Screenshot 2026-10-16 213540" src="https://github.com/user-attachments/assets/6b05d304-20e8-4053-9bab-1bf3a9cfe594" />
+
 
 
 **search tree**
@@ -41,41 +42,53 @@ PEAS stands for Performance measure, Environment, Actuators and Sensors. It desc
 
  **Route 1 (Northern Corridor via Nakuru and Eldoret):**
   
-  Nairobi → Naivasha: 76 km,
-  Naivasha → Nakuru: 74 km,
-  Nakuru → Eldoret: 157 km,
-  Eldoret → Kisumu: 115 km.
+  Nairobi → Naivasha: 91 km,
+  Naivasha → Nakuru: 75 km,
+  Nakuru → Eldoret: 160 km,
+  Eldoret → Kisumu: 125 km.
   
-  Total Distance: 76 + 74 + 157 + 115 = 422 km
+  Total Distance: 91+75+160+125 = 451 km
 
 **Route 2 (Northern Corridor via Nakuru and Kericho):**
 
-  Nairobi → Naivasha: 76 km,
-  Naivasha → Nakuru: 74 km,
-  Nakuru → Kericho: 85 km,
+  Nairobi → Naivasha: 91 km,
+  Naivasha → Nakuru: 75 km,
+  Nakuru → Kericho: 107 km,
   Kericho → Kisumu: 80 km.
   
-  Total Distance: 76+74+85+80=315 km
+  Total Distance: 91+75+107+80=353 km
 
-**Route 3 (Central Highlands via Thika, Nyeri, and Nakuru):**
+**Route 3 (Central Highlands via Thika, Nyeri, Nakuru and Kericho):**
 
-  Nairobi → Thika: 45 km,
-  Thika → Nyeri: 110 km,
-  Nyeri → Nakuru: 115 km,
-  Nakuru → Kericho: 85 km,
+  Nairobi → Thika: 47 km,
+  Thika → Nyeri: 113 km,
+  Nyeri → Nakuru: 167 km,
+  Nakuru → Kericho: 107 km,
   Kericho → Kisumu: 80 km.
   
-  Total Distance: 45+110+115+85+80=435 km
+  Total Distance: 47+113+167+107+80= 514 km
+
+**Route 4 (Central Highlands via Thika, Nyeri, Nakuru and Eldoret)**
+
+   Nairobi → Thika: 47 km,
+   Thika → Nyeri: 113 km,
+   Nyeri → Nakuru: 167 km,
+   Nakuru → Eldoret: 160 km,
+   Eldoret → Kisumu: 125 km.
+
+   Total Distance: 47+113+167+160+125= 612 km
+
 
 **2. Optimal Path Determination**
 
   **Comparing the total path costs of all valid sequences from Nairobi to Kisumu:**
   
-  Route 1: 422 km,
-  Route 2: 315 km (Optimal Path),
-  Route 3: 435 km.
+  Route 1: 451 km,
+  Route 2: 353 km (Optimal Path),
+  Route 3: 514 km,
+  Route 4: 612 km.
 
-The optimal path for the trailer is **Nairobi → Naivasha → Nakuru → Kericho → Kisumu**, with a minimum total path cost of 315 kilometers.
+The optimal path for the trailer is **Nairobi → Naivasha → Nakuru → Kericho → Kisumu**, with a minimum total path cost of 353 kilometers.
 
 
 **Cool Team Photo**
