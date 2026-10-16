@@ -78,5 +78,9 @@ PEAS stands for Performance measure, Environment, Actuators and Sensors. It desc
 The optimal path for the trailer is **Nairobi → Naivasha → Nakuru → Kericho → Kisumu**, with a minimum total path cost of 315 kilometers.
 
 
+**Cool Team Photo**
+<img width="948" height="421" alt="Screenshot 2026-10-16 201057" src="https://github.com/user-attachments/assets/e61df615-0685-41ee-b005-29f1d8d9b03d" />
+
+
 
 
