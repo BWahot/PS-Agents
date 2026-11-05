@@ -22,6 +22,10 @@ PEAS stands for Performance measure, Environment, Actuators and Sensors. It desc
 
   Single-agent or multi-agent:        (multi-agent):              The self-driving trailer operates alongside other vehicles,                                                                   drivers, pedestrians and potentially other autonomous                                                                         vehicles. Their actions influence the trailer's decisions                                                                      and its ability to reach its destination safely
 
+****  QUESTION 2**SEARCH TREE AND DIRECTED GRAPH
+**
+
+  
 **Question 2**
 
 **Directed Graph**
